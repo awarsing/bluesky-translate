@@ -2,13 +2,22 @@
 
 ## 0.1.0
 
-Initial Chrome release candidate.
+Updated Chrome release package.
 
 Chrome package:
 
-- File: `bskytranslate-publicextension-0.1.0-chrome.zip`
-- Size: `893,918` bytes
-- SHA-256: `e58428eaafcabbf4a85c1a20febb7c49a060f4199893e131fdb7960197afb824`
+- File: bskytranslate-publicextension-0.1.0-chrome.zip
+- Size: 901,617 bytes
+- SHA-256: 7385fdc7392ca303a8d3754bf206bd203d00e4f973c0e7bbb26be3f0afa6fe6b
+
+Changes in this package:
+
+- Fixes completed translations not rendering until page refresh on Bluesky timelines.
+- Adds focused cache, metrics, DOM, and controller regression coverage.
+- Cleans up duplicated metrics, validation, pattern, hash, and provider request logic.
+- Adds non-strict Knip and Fallow inventory tooling for source hygiene.
+
+Initial extension capabilities:
 
 - Inline English translation cards for Bluesky posts.
 - Local language filtering before provider requests.
