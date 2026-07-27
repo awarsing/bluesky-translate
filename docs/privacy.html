@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy | Bluesky Translator</title>
+    <meta name="description" content="Privacy policy for the Bluesky Translator browser extension." />
+    <link rel="canonical" href="https://awarsing.github.io/bluesky-translate/privacy.html" />
+    <link rel="icon" href="images/icon128.png" type="image/png" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Privacy Policy | Bluesky Translator" />
+    <meta property="og:description" content="Privacy policy for the Bluesky Translator browser extension." />
+    <meta property="og:url" content="https://awarsing.github.io/bluesky-translate/privacy.html" />
+    <meta name="twitter:card" content="summary" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        --background: light-dark(#ffffff, #09090b);
+        --foreground: light-dark(#09090b, #f4f4f5);
+        --card: light-dark(#ffffff, #121215);
+        --muted-foreground: light-dark(#71717a, #a1a1aa);
+        --border: light-dark(#e4e4e7, #27272a);
+        --primary: light-dark(#18181b, #ffffff);
+        --radius: 10px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--foreground);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 16px 64px;
+      }
+
+      a {
+        color: var(--foreground);
+      }
+
+      a:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 3px;
+      }
+
+      .back {
+        display: inline-flex;
+        margin-bottom: 26px;
+        color: var(--muted-foreground);
+        font-size: 13px;
+        text-decoration: none;
+      }
+
+      h1 {
+        margin: 0 0 6px;
+        font-size: 28px;
+        letter-spacing: -0.04em;
+      }
+
+      .updated {
+        margin: 0 0 26px;
+        color: var(--muted-foreground);
+        font-size: 13px;
+      }
+
+      .section-grid {
+        display: grid;
+        gap: 14px;
+      }
+
+      section {
+        padding: 16px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        background: var(--card);
+      }
+
+      h2 {
+        margin: 0 0 8px;
+        font-size: 15px;
+      }
+
+      p,
+      li {
+        color: var(--muted-foreground);
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      p,
+      ul {
+        margin: 0;
+      }
+
+      ul {
+        padding-left: 18px;
+      }
+
+      li + li {
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="back" href="index.html">&larr; Back to Bluesky Translator</a>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: July 27, 2026</p>
+
+      <div class="section-grid">
+        <section>
+          <h2>Overview</h2>
+          <p>Bluesky Translator is a bring-your-own-key browser extension. Non-English posts are sent directly from your browser to your configured AI provider.</p>
+        </section>
+
+        <section>
+          <h2>Local Data Storage</h2>
+          <ul>
+            <li>Extension state, including enabled or paused status.</li>
+            <li>Selected provider ID, provider default model, and API key.</li>
+            <li>Local translation cache entries.</li>
+            <li>Browser-local counters for posts examined, cache hits, token totals, and provider requests.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Provider Data Egress</h2>
+          <p>Post text requiring translation is sent directly to your chosen AI provider endpoint using your stored API key. Data processing is governed by your provider account agreement.</p>
+        </section>
+
+        <section>
+          <h2>Zero Telemetry</h2>
+          <ul>
+            <li>No analytics or tracking scripts.</li>
+            <li>No mandatory external user accounts.</li>
+            <li>No keys, prompts, or metrics transmitted to Three Things Media.</li>
+            <li>No data sale or monetization.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Extension Permissions</h2>
+          <p>The extension requests storage permission for local settings, bsky.app host access for feed translation, and host access for supported provider API endpoints.</p>
+        </section>
+
+        <section>
+          <h2>Support & Contact</h2>
+          <p>Public support, releases, and issue tracking are available on <a href="https://github.com/awarsing/bluesky-translate" target="_blank" rel="noreferrer">GitHub</a>.</p>
+        </section>
+
+        <section>
+          <h2>Legal Notice</h2>
+          <p>
+            &copy; 2026 TranslateSky. All rights reserved. TranslateSky&trade; is a trademark of
+            Three Things Media. Unauthorized use of this trademark is prohibited.
+          </p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://awarsing.github.io/bluesky-translate/sitemap.xml

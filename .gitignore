@@ -1,0 +1,9 @@
+.DS_Store
+dist/
+*.zip
+*.crx
+*.pem
+*.key
+.env
+.env.*
+!.env.example
